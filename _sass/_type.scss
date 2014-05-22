@@ -1,0 +1,192 @@
+// typography
+/////////////////////////////////////////
+
+body {
+	color: $base-font-color;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	-webkit-font-smoothing: antialiased;
+	line-height: $base-line-height;
+  margin-bottom: 9.6em; // footer height
+  min-height: 100%;
+  height: 100%;
+}
+
+h1,.h1 ,%h1, h2, .h2,%h2, h3, .h3,%h3, h4, h5, h6 {
+	font-family: $header-font-family;
+	line-height: 1.25em;
+	margin: 0;
+	text-rendering: optimizeLegibility; //fix the character spacing for headings
+}
+
+h5,h6 {
+	font-family: $base-font-family;
+}
+
+h1,.h1,%h1 {
+	font-size: $fs1;
+	line-height: 68px;
+	margin-bottom: 3rem;
+	font-weight: 500;
+}
+
+h2,.h2,%h2 {
+	font-size: $fs2;
+	line-height: 60px;
+	margin-bottom: 1.5rem;
+	font-weight: 500;
+}
+
+h3,.h3,%h3 {
+	font-size: $fs3;
+	line-height: 52px;
+	margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+h4,.h4,%h4 {
+	font-size: $fs4;
+	line-height: 44px;
+	margin-bottom: 1rem;
+}
+
+h5, .h5, %h5 {
+	font-size: $fs5;
+	line-height: 34px;
+	margin-bottom: .5rem;
+}
+
+h6, .h6, %h6 {
+	font-size: $fs7;
+	@extend %caps-lock;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+
+p {
+	// margin: 0 0 ($base-line-height * .5);
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+	/* Non standard for webkit */
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[data="disabled"] {
+  pointer-events: none;
+  cursor: default;
+}
+
+p + p {
+  margin-top: $base-line-height;
+}
+p a {
+  @include link-hover($base-link-color, 10, underline);
+}
+
+p {
+	margin-bottom: $base-line-height;
+}
+
+p.caption {
+	text-align: center;
+	color: $darker-gray;
+	width: 100%;
+	font-size: $fs6;
+  margin-bottom: .75em;
+  line-height: 1.25em;
+}
+
+hr {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 2px;
+	border: none;
+	background: $white;
+	margin: 0 auto;
+}
+
+img {
+	margin: 0;
+	max-width: 100%;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted $base-border-color;
+	cursor: help;
+}
+
+address {
+	display: block;
+	margin: 0 0 ($base-line-height / 2);
+}
+
+del {
+	color: transparentize($base-font-color, .33);
+}
+
+blockquote {
+	font-style: italic;
+	margin: $base-line-height 0;
+	margin-left: $base-line-height;
+	padding-left: $base-line-height;
+}
+
+small {
+	font-size: $fs7;
+	display: block;
+	font-family: $mono;
+}
+
+em {
+	font-style: italic;
+}
+
+b {
+	font-weight: bold;
+	letter-spacing: -0.04em;
+}
+
+cite {
+	color: lighten($base-font-color, 25);
+	font-style: italic;
+
+	&:before {
+		content: '\2014 \00A0';
+	}
+}
+
+// copy
+%intro {  font-size: $fs3; }
+%copy {   font-size: $fs4; }
+
+
+// casing
+%caps-lock  { text-transform:uppercase; }
+%title-casing { text-transform:capitalize; }
+
+// tracking on titles
+%title      {
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+}
+
+// alignment
+%ar         { text-align: right;  }
+%al         { text-align: left;   }
+%ac,
+%ct         { text-align: center; }
+
+
+// wrapping
+%nw    { white-space:nowrap; }
+  

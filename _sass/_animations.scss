@@ -1,0 +1,30 @@
+// Mixin
+@mixin keyframes($name) {
+  @-moz-keyframes #{$name}    { @content; }
+  @-webkit-keyframes #{$name} { @content; }
+  @-o-keyframes #{$name}      { @content; }
+  @-ms-keyframes #{$name}     { @content; }
+  @-khtml-keyframes #{$name}  { @content; }
+  @keyframes #{$name}         { @content; }
+}
+
+@include keyframes(hovering) {
+  0% { @include transform(translateY(0)); }
+  50% { @include transform(translateY(8px));}
+  100% { @include transform(translateY(0));}
+}
+
+%hovering {
+    @include animation(hovering 3s $ease-in-out-quad);
+    @include animation-delay(1.33s);
+    @include animation-iteration-count(infinite);
+}
+
+@include keyframes(fadeIn) {
+  0% { opacity: 0; }
+  100% { opacity: 1;}
+}
+
+%fadeIn {
+  @include animation(fadeIn .33s $ease-in-out-quad);
+}

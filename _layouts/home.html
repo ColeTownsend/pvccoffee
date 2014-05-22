@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body>
+    {% include _navigation_main.html %}
+    <section class="full block-1">
+      <h1>Purple Valley Coffee Club</h1>
+      <article class="full">
+          <div class="left img-first"></div>
+          <div class="right">
+            <div class="img-second"></div>
+            <div class="img-third"></div>
+          </div>
+      </article>
+    </section>
+
+    <section id="mission" class="block-2">
+      <article>
+        <h2>Mission</h2>
+        <p>This group aims to expose students to new methods of production, different styles of beans, and some basic chemistry related to production, regardless of previous experience. Students will learn how to make their own coffee and will no longer rely on cafés.</p>
+        <p> We want to increase coffee awareness, interest, and flavour in the Williams College community. No more over-roasted over-saturated beans. No more high octane jet fuel quality espresso. We are here to educate students about great tasting coffee without the expenses associated with quality beans and brewing methods.</p>
+      </article>
+      <br>
+      <hr>
+      <br>
+      <br>
+    </section>
+
+    <section id="us" class="block-3">
+      <article>
+        <h3>Current Members</h3>
+        <table class="member-list">
+          <tbody>
+            {% tablerow member in site.data.members cols:4 %}
+              {{ member.name }}
+            {% endtablerow %}
+          </tbody>
+        </table>
+      </article>
+    </section>
+    {% include _footer.html %}
+  </body>
+</html>
