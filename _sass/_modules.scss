@@ -1,0 +1,25 @@
+.wrap {
+  @extend %container;
+  article > header {
+    margin-top: 3em;
+  }
+}
+/* Site Architecture */
+
+.full {
+  width: 100%;
+  min-height: 1px;
+  display: block;
+  @include clearfix;
+}
+
+.wrap {
+  @extend %container;
+  article > header {
+    margin-top: 3em;
+  }
+}
+
+.hidden {
+  display: none;
+}
