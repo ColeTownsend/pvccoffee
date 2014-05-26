@@ -5,19 +5,25 @@
   <section class="wrap">
     <ul>
       {% for post in site.posts %}
-        {% if class == post %}
+        {% if layout == post %}
           <li>
             <a href="{{ site.url }}{{ post.url }}">
               <h2>{{ post.title }}</h2>
               <small>{{ post.date | date: "%-d %B %Y" }}</small>
             </a>
           </li>
-        {% endif %}
-        {% if class == link %}
+        {% elsif class == link %}
            <li>
-            <a href="{{ post.link }}">
+            <a {{ if post.external == "true" }}target="_blank"{{ endif }} href="{{ post.link }}">
               <h2>{{ post.title }}</h2>
-              <small>{{ post.description }}</small>
+              <small>{{post.content}}</small>
+            </a>
+          </li>
+        {% else %}
+          <li>
+            <a href="{{ site.url }}{{ post.url }}">
+              <h2>{{ post.title }}</h2>
+              <small>{{ post.date | date: "%-d %B %Y" }}</small>
             </a>
           </li>
         {% endif %}

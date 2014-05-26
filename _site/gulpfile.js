@@ -6,12 +6,10 @@ var gulp = require('gulp'),
     lr    = require('tiny-lr'),
     server = lr(),
     livereload = require('gulp-livereload'),
-    prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
     sass = require('gulp-ruby-sass'),
     imagemin = require('gulp-imagemin'),
-    svgmin = require('gulp-svgmin'),
-    csslint = require('gulp-csslint');
+    svgmin = require('gulp-svgmin')
 
 
 // Task to minify all css files in the css directory
@@ -43,25 +41,12 @@ gulp.task('minify-svg', function(){
           .pipe(gulp.dest('./images/svg'));
 });
 
-// Use csslint without box-sizing or compatible vendor prefixes (these
-// don't seem to be kept up to date on what to yell about)
-gulp.task('csslint', function(){
-  gulp.src('./css/*.css')
-    .pipe(csslint({
-          'compatible-vendor-prefixes': false,
-          'box-sizing': false,
-          'important': false
-        }))
-    .pipe(csslint.reporter());
-
-});
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
   gulp.src('./_sass/i.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass({loadPath: ['./_sass/'], style: "compact"}))
-          .pipe(prefix())
           .pipe(gulp.dest('./css/'))
           .pipe(livereload(server));
       }));

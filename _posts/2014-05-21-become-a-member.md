@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: link
 
 title: Become a Member
-date: 2014-05-26
+date: 2014-05-26 
 class: link
+link: http://wso.williams.edu/facebook/view/cnt2
+external: true
+---
 
-link: "http://wso.williams.edu/facebook/view/cnt2"
-description: Contact cnt2 @ for details.
+Contact cnt2 @ williams.edu for details on joining the ranks.

@@ -108,6 +108,7 @@ article {
 		// background-image: url('/images/bg-full.jpg');
 		@include retina-image(/images/bg-full, cover, jpg, _2x);
 		@extend .img-fill;
+		border-right: 4px solid $white;
 	}
 	.right {
 		float: left;
@@ -118,11 +119,15 @@ article {
 		background-image: url('/images/bg-1-half.jpg');
 		height: $block-1-height/2;
 		@extend .img-fill;
+		border-left: 4px solid $white;
+		border-bottom: 4px solid $white;
 	}
 	.img-third {
 		background-image: url('/images/bg-2-half.jpg');
 		height: $block-1-height/2;
 		@extend .img-fill;
+		border-left: 4px solid $white;
+		border-top: 4px solid $white;
 	}
 }
 
