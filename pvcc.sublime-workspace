@@ -83,6 +83,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_data/members.yml",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_development_config.yml",
+			"settings":
+			{
+				"buffer_size": 71,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/_navigation_main.html",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post-list.html",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-05-21-become-a-member.md",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_styles.scss",
+			"settings":
+			{
+				"buffer_size": 4124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_type.scss",
+			"settings":
+			{
+				"buffer_size": 2908,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/jekyll.sublime-build",
 	"command_palette":
@@ -304,9 +360,13 @@
 	},
 	"file_history":
 	[
+		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-05-21-become-a-member.md",
+		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_head.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/.gitignore",
+		"/Users/ct/Documents/www/sites/pvccoffee/pvcc.sublime-project",
+		"/Users/ct/Documents/www/sites/pvccoffee/humans.txt",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_styles.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_navigation_main.html",
-		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_head.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_config.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/thoughts/index.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/gulpfile.js",
@@ -427,11 +487,7 @@
 		"/Users/ct/Documents/gits/Meeet/system/views/new.jade",
 		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-02-27-sketch-app.md",
 		"/Users/ct/Documents/www/sites/portfolio/_layouts/work-listing.html",
-		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-02-26-tuchuang.md",
-		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-02-27-quick-guide-to-anchor-cms.md",
-		"/Users/ct/Copy/Freelancer/Meet/Meeet.co.txt",
-		"/Users/ct/Documents/www/sites/portfolio/_site/portfolio.sublime-project",
-		"/Users/ct/Documents/www/sites/portfolio/javascripts/fluidbox.js"
+		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-02-26-tuchuang.md"
 	],
 	"find":
 	{
@@ -596,8 +652,196 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_data/members.yml",
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_development_config.yml",
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/_navigation_main.html",
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								498
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_layouts/post-list.html",
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/2014-05-21-become-a-member.md",
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_sass/_styles.scss",
+					"settings":
+					{
+						"buffer_size": 4124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2046,
+								2046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2344.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_sass/_type.scss",
+					"settings":
+					{
+						"buffer_size": 2908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -634,7 +878,7 @@
 		"cols":
 		[
 			0.0,
-			0.960336538462,
+			0.503530369782,
 			1.0
 		],
 		"rows":
