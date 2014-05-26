@@ -1,19 +1,29 @@
 <html lang="en"> 
   {% include _head.html %}
   <body {% if page.class %} class="{{ page.class }}" {% endif %}>
-    {% include _navigation_main.html %}
-   <section class="wrap">
+  {% include _navigation_main.html %}
+  <section class="wrap">
     <ul>
       {% for post in site.posts %}
-        <li>
-          <a href="{{ site.url }}{{ post.url }}">
-            <h2>{{ post.title }}</h2>
-            <small>{{ post.date | date: "%-d %B %Y" }}</small>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </section>
-    {% include _footer.html %}
+        {% if class == post %}
+          <li>
+            <a href="{{ site.url }}{{ post.url }}">
+              <h2>{{ post.title }}</h2>
+              <small>{{ post.date | date: "%-d %B %Y" }}</small>
+            </a>
+          </li>
+        {% endif %}
+        {% if class == link %}
+           <li>
+            <a href="{{ post.link }}">
+              <h2>{{ post.title }}</h2>
+              <small>{{ post.description }}</small>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% include _footer.html %}
   </body>
 </html>

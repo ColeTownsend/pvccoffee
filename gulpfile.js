@@ -43,18 +43,18 @@ gulp.task('minify-svg', function(){
           .pipe(gulp.dest('./images/svg'));
 });
 
-// // Use csslint without box-sizing or compatible vendor prefixes (these
-// // don't seem to be kept up to date on what to yell about)
-// gulp.task('csslint', function(){
-//   gulp.src('./css/*.css')
-//     .pipe(csslint({
-//           'compatible-vendor-prefixes': false,
-//           'box-sizing': false,
-//           'important': false
-//         }))
-//     .pipe(csslint.reporter());
+// Use csslint without box-sizing or compatible vendor prefixes (these
+// don't seem to be kept up to date on what to yell about)
+gulp.task('csslint', function(){
+  gulp.src('./css/*.css')
+    .pipe(csslint({
+          'compatible-vendor-prefixes': false,
+          'box-sizing': false,
+          'important': false
+        }))
+    .pipe(csslint.reporter());
 
-// });
+});
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){

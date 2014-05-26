@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/ct/Documents/www/sites/pvccoffee",
+			"folder_exclude_patterns": [".svn", ".git", ".hg", "node_modules", ".sass-cache", "_site", "css", "images"]
+		}
+
+	]
+}
