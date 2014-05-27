@@ -99,7 +99,10 @@ article {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    @include filter(sepia(100%) grayscale(80%) opacity(.75) );
+    opacity: .9;
+    @include media($small) {
+    	display: none;
+  	}
 	}
 	.left {
 		float: left;
