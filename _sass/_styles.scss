@@ -239,18 +239,27 @@ article {
     font-family: $mono;
     margin-top: 0;
     @include span-columns(8);
-    border-bottom: 1px solid $base-border-color;
+    border-bottom: 1px solid $white;
   }
   input {
+  	font-size: $fs7;
+  	font-family: $mono;
   	outline: none;
     border: none;
-    border-bottom: 1px solid $base-border-color;
+    border-bottom: 1px solid $white;
     margin-bottom: $base-line-height;
     margin-top: 0;
+    background: rgba(255,255,255, .25);
     @include transition(all, .3s, ease);
+    @include placeholder {
+    	color: $white;
+ 		}
     &:active, &:focus {
-      background: $base-border-color;
+      background: $white;
       @include transition(all, .3s, ease);
+      @include placeholder {
+    		color: $light-black;
+ 			}
     }
   }
   input {
@@ -258,16 +267,35 @@ article {
     @include span-columns(8);
   }
   button {
+  	font-size: $fs7;
+  	font-weight: normal;
   	background:none;
   	color: $white;
   	outline: none;
   	box-shadow: none;
+  	border: 1px solid white;
+  	-webkit-border-radius: 1px;
+  	-moz-border-radius: 1px;
+  	border-radius: 1px;
+  	padding: .5em 1em;
   }
   textarea {
     padding: .5em 1em;
     resize: none;
+    font-size: $fs7;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255, .25);
+    @include placeholder {
+    	color: $white;
+ 		}
     &:active, &:focus {
-      border: 1px solid $base-border-color;
+    	@include placeholder {
+    		color: $light-black;
+ 			}
+    	border: none;
+    	outline: none;
+      background: $white;
     }
   }
 }

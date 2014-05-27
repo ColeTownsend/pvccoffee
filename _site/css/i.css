@@ -193,13 +193,29 @@ article { display: block; margin-bottom: 2.25rem; width: 100%; position: relativ
 .contact p:first-child { margin-top: 0; }
 .contact label { font-family: "Inconsolata", "Menlo", mono-spaced; margin-top: 0; float: left; display: block; margin-right: 1.65746%; width: 100%; border-bottom: 1px solid white; }
 .contact label:last-child { margin-right: 0; }
-.contact input { outline: none; border: none; border-bottom: 1px solid white; margin-bottom: 1.5em; margin-top: 0; -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
+.contact input { font-size: 16px; font-family: "Inconsolata", "Menlo", mono-spaced; outline: none; border: none; border-bottom: 1px solid white; margin-bottom: 1.5em; margin-top: 0; background: rgba(255, 255, 255, 0.25); -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
+.contact input::-webkit-input-placeholder { color: white; }
+.contact input::-moz-placeholder { color: white; }
+.contact input:-moz-placeholder { color: white; }
+.contact input:-ms-input-placeholder { color: white; }
 .contact input:active, .contact input:focus { background: white; -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
+.contact input:active::-webkit-input-placeholder, .contact input:focus::-webkit-input-placeholder { color: #383431; }
+.contact input:active::-moz-placeholder, .contact input:focus::-moz-placeholder { color: #383431; }
+.contact input:active:-moz-placeholder, .contact input:focus:-moz-placeholder { color: #383431; }
+.contact input:active:-ms-input-placeholder, .contact input:focus:-ms-input-placeholder { color: #383431; }
 .contact input { padding: .5em 1em; float: left; display: block; margin-right: 1.65746%; width: 100%; }
 .contact input:last-child { margin-right: 0; }
-.contact button { background: none; color: white; outline: none; box-shadow: none; }
-.contact textarea { padding: .5em 1em; resize: none; }
-.contact textarea:active, .contact textarea:focus { border: 1px solid white; }
+.contact button { font-size: 16px; font-weight: normal; background: none; color: white; outline: none; box-shadow: none; border: 1px solid white; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; padding: .5em 1em; }
+.contact textarea { padding: .5em 1em; resize: none; font-size: 16px; border: none; outline: none; background: rgba(255, 255, 255, 0.25); }
+.contact textarea::-webkit-input-placeholder { color: white; }
+.contact textarea::-moz-placeholder { color: white; }
+.contact textarea:-moz-placeholder { color: white; }
+.contact textarea:-ms-input-placeholder { color: white; }
+.contact textarea:active, .contact textarea:focus { border: none; outline: none; background: white; }
+.contact textarea:active::-webkit-input-placeholder, .contact textarea:focus::-webkit-input-placeholder { color: #383431; }
+.contact textarea:active::-moz-placeholder, .contact textarea:focus::-moz-placeholder { color: #383431; }
+.contact textarea:active:-moz-placeholder, .contact textarea:focus:-moz-placeholder { color: #383431; }
+.contact textarea:active:-ms-input-placeholder, .contact textarea:focus:-ms-input-placeholder { color: #383431; }
 
 footer { position: absolute; bottom: 0; left: 0; width: 100%; display: block; font-family: "GT Walsheim", Karla, "Helvetica Neue", Arial, sans-serif; text-align: center; width: 100%; height: 10rem; color: white; }
 footer a { color: white; border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
