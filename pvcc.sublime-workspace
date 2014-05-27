@@ -747,8 +747,8 @@
 						"selection":
 						[
 							[
-								721,
-								721
+								496,
+								496
 							]
 						],
 						"settings":
@@ -758,7 +758,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 81.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -1,12 +1,14 @@
 - title: Mission
   url: '#mission'
 
-- title: Us
-  url: '#us'
+# - title: Us
+#   url: '#us'
 
 - title: Thoughts
   url: /thoughts/
 
+- title: Sign Up
+  url: /join/
 
 - title: About
   url: /about/
