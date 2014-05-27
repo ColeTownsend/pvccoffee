@@ -193,7 +193,7 @@ article { display: block; margin-bottom: 2.25rem; width: 100%; position: relativ
 .contact p:first-child { margin-top: 0; }
 .contact label { font-family: "Inconsolata", "Menlo", mono-spaced; margin-top: 0; float: left; display: block; margin-right: 1.65746%; width: 100%; border-bottom: 1px solid white; }
 .contact label:last-child { margin-right: 0; }
-.contact input { border-bottom: 1px solid white; outline: none; margin-bottom: 1.5em; margin-top: 0; -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
+.contact input { outline: none; border: none; border-bottom: 1px solid white; margin-bottom: 1.5em; margin-top: 0; -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
 .contact input:active, .contact input:focus { background: white; -webkit-transition: all, 0.3s, ease; -moz-transition: all, 0.3s, ease; transition: all, 0.3s, ease; }
 .contact input { padding: .5em 1em; float: left; display: block; margin-right: 1.65746%; width: 100%; }
 .contact input:last-child { margin-right: 0; }
