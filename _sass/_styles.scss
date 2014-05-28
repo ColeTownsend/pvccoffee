@@ -37,12 +37,22 @@ header[role="main-header"] {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
+		@include media($small) {
+			@include outer-container();
+		}
 		li {
 			display: inline-block;
 			text-align: center;
 			margin: 0 3rem;
 			@include media($small) {
-				margin-right: 1rem;
+				margin: 0;
+				@include span-columns(3);
+				@include omega(2n);
+				// margin-right: 1rem;
+				font-size: em(12,16);
+				a {
+					padding: .5em 1em;
+				}
 			}
 		}
 	}
@@ -79,15 +89,23 @@ article {
   }
 }
 
+// Landing
+
+h1.landing-header {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	text-align: center;
+	display:block;
+	width: 100%;
+}
+
 .block-1 {
-	$block-1-height: 105vh;
+	$block-1-height: 400px;
 	min-height: $block-1-height;
 	max-height: 1000px;
 	position: relative;
-	h1 {
-		margin-top: 4rem;
-		margin-bottom: 4rem;
-		text-align: center;
+  @include media($small) {
+  	display: none;
 	}
 	.img-fill {
 		vertical-align: middle;
@@ -100,9 +118,6 @@ article {
     -o-background-size: cover;
     position: relative;
     opacity: .9;
-    @include media($small) {
-    	display: none;
-  	}
 	}
 	.left {
 		float: left;

@@ -25,34 +25,34 @@ h5,h6 {
 
 h1,.h1,%h1 {
 	font-size: $fs1;
-	line-height: 68px;
+	line-height: em(68, $fs1);
 	margin-bottom: 3rem;
 	font-weight: 500;
 }
 
 h2,.h2,%h2 {
 	font-size: $fs2;
-	line-height: 60px;
+	line-height: em(60, $fs2);
 	margin-bottom: 1.5rem;
 	font-weight: 500;
 }
 
 h3,.h3,%h3 {
 	font-size: $fs3;
-	line-height: 52px;
+	line-height: em(52, $fs3);
 	margin-bottom: 1.25rem;
   font-weight: 500;
 }
 
 h4,.h4,%h4 {
 	font-size: $fs4;
-	line-height: 44px;
+	line-height: em(44, $fs4);
 	margin-bottom: 1rem;
 }
 
 h5, .h5, %h5 {
 	font-size: $fs5;
-	line-height: 34px;
+	line-height: em(34, $fs5);
 	margin-bottom: .5rem;
 }
 
@@ -60,7 +60,7 @@ h6, .h6, %h6 {
 	font-size: $fs7;
 	@extend %caps-lock;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: em(24, $fs7);
 	margin-bottom: 0;
 }
 
