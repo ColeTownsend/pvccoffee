@@ -49,8 +49,8 @@ $base-font-color: $white;
 $base-accent-color: $purple;
 
 // link colors
-$base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 10);
+$base-link-color: $white;
+$hover-link-color: darken($base-link-color, 10);
 
 // border color
 $base-border-color: $white;

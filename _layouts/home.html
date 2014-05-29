@@ -20,10 +20,7 @@
         <p>This group aims to expose students to new methods of production, different styles of beans, and some basic chemistry related to production, regardless of previous experience. Students will learn how to make their own coffee and will no longer rely on cafés.</p>
         <p> We want to increase coffee awareness, interest, and flavour in the Williams College community. No more over-roasted over-saturated beans. No more high octane jet fuel quality espresso. We are here to educate students about great tasting coffee without the expenses associated with quality beans and brewing methods.</p>
       </article>
-      <br>
       <hr>
-      <br>
-      <br>
     </section>
 
     <section id="us" class="block-3">
@@ -36,6 +33,21 @@
             {% endtablerow %}
           </tbody>
         </table>
+      </article>
+    </section>
+
+     <section id="roasters" class="block-4">
+      <article>
+        <h3>Roasters</h3>
+        <ul class="bullet col-2">
+          {% for each roaster in site.data.roasters %}
+            {% if roaster.url ==  %}
+              <li>{{ roaster.name }}</li>
+            {% else %}
+              <li><a target="_blank" href="{{ roaster.url }}">{{ roaster.name }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </article>
     </section>
     {% include _footer.html %}

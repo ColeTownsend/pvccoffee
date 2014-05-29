@@ -1,6 +1,6 @@
 // links
 /////////////////////////////////////////
-@mixin link-hover($link-color: $base-link-color, $darken: 10, $type: shadow) {
+@mixin link-hover($link-color: $base-link-color, $darken: 10, $type: underline) {
   color: $link-color;
   @include transition(color .1s $ease-in-out-quad);
   

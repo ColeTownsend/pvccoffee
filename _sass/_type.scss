@@ -76,10 +76,6 @@ p {
 	hyphens: auto;
 }
 
-a {
-  text-decoration: none;
-}
-
 a[data="disabled"] {
   pointer-events: none;
   cursor: default;
@@ -88,7 +84,7 @@ a[data="disabled"] {
 p + p {
   margin-top: $base-line-height;
 }
-p a {
+a {
   @include link-hover($base-link-color, 10, underline);
 }
 
@@ -123,6 +119,32 @@ img {
 abbr, acronym {
 	border-bottom: 1px dotted $base-border-color;
 	cursor: help;
+}
+
+ul {
+	@include outer-container();
+	li {
+		list-style-type: disc;
+		margin: $base-line-height/2 0;
+	}
+}
+
+@for $i from 1 through 4 {
+	ul.column-#{$i} {
+		li {
+			@include span-columns(8/$i);
+			@include omega(($i)n)
+		}
+	}
+}
+
+ul.col-2 {
+	li {
+		@include span-columns(4);
+		&:nth-child(even) {
+			@include omega();
+		}
+	}
 }
 
 address {

@@ -61,6 +61,7 @@ header[role="main-header"] {
 		display: inline-block;
 		text-decoration: none;
 		@extend %h6;
+		background:none;
 		font-weight: bold;
 		font-family: $mono;
 		letter-spacing: 2px;
@@ -78,7 +79,7 @@ section {
 
 article {
 	display: block;
-	margin-bottom: 2.25rem;
+	margin: 2*$base-line-height 0;
 	width: 100%;
 	position: relative;
 	@include media($default) {
@@ -100,12 +101,15 @@ h1.landing-header {
 }
 
 .block-1 {
-	$block-1-height: 400px;
-	min-height: $block-1-height;
+	$block-1-height: 90vh;
+	min-height: 400px;
 	max-height: 1000px;
 	position: relative;
   @include media($small) {
   	display: none;
+	}
+	article {
+		margin-bottom: 0;
 	}
 	.img-fill {
 		vertical-align: middle;
@@ -151,7 +155,6 @@ h1.landing-header {
 
 .block-2 {
 	font-weight: 500;
-	margin-top: 2.25em !important;
 	p {
 		font-size: $fs6;
 		line-height: 28px;
@@ -160,7 +163,7 @@ h1.landing-header {
 
 .block-3 {
 	table {
-		margin-top: 3em;
+		margin-top: $base-line-height;
 		@include span-columns(8);
 		display: block;
 		border-collapse: collapse;
@@ -329,13 +332,6 @@ footer {
   width:100%;
   height: 10rem;
   color: $white;
-  a {
-    color: $white;
-    border-bottom: 1px solid transparentize($white, .4);
-    &:visited {
-      color: $white;
-    }
-  }
   small {
     color: $white;
     @extend %vertical-align;
