@@ -103,7 +103,7 @@
 			"file": "_sass/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 6002,
+				"buffer_size": 6000,
 				"line_ending": "Unix"
 			}
 		},
@@ -652,7 +652,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -714,15 +714,15 @@
 					"file": "_sass/_styles.scss",
 					"settings":
 					{
-						"buffer_size": 6002,
+						"buffer_size": 6000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1800,
-								1800
+								1798,
+								1798
 							]
 						],
 						"settings":
@@ -730,7 +730,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1988.0,
+						"translation.y": 2093.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,7 +757,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2647.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

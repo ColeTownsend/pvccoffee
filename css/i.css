@@ -603,7 +603,7 @@ h1.landing-header {
     .block-1 {
       display: none; } }
   .block-1 article {
-    margin-bottom: 0; }
+    margin: 0 auto; }
   .block-1 .img-fill, .block-1 .left, .block-1 .img-second, .block-1 .img-third {
     vertical-align: middle;
     background-position: center center;
