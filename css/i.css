@@ -669,6 +669,9 @@ h1.landing-header {
     border: 2px solid white;
     margin: 0 0;
     height: 3rem;
+    padding: 0 2rem !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
