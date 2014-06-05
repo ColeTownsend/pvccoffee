@@ -481,6 +481,9 @@ h6, .h6, header[role="main-header"] nav a {
 .wrap article > header {
   margin-top: 3em; }
 
+input[type="hidden"] {
+  display: none; }
+
 .hidden {
   display: none; }
 

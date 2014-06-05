@@ -103,23 +103,7 @@
 			"file": "_sass/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 6000,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/_type.scss",
-			"settings":
-			{
-				"buffer_size": 3244,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/home.html",
-			"settings":
-			{
-				"buffer_size": 2023,
+				"buffer_size": 6084,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,10 +116,10 @@
 			}
 		},
 		{
-			"file": "_sass/i.scss",
+			"file": "_sass/_modules.scss",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 337,
 				"line_ending": "Unix"
 			}
 		}
@@ -360,18 +344,22 @@
 	},
 	"file_history":
 	[
+		"/Users/ct/Documents/www/sites/pvccoffee/thanks/index.md",
+		"/Users/ct/Documents/www/sites/pvccoffee/join/index.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_type.scss",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/home.html",
+		"/Users/ct/Documents/www/sites/portfolio/_config.yml",
+		"/Users/ct/Documents/www/sites/pvccoffee/_sass/i.scss",
+		"/Users/ct/Documents/www/sites/pvccoffee/_data/members.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_mixins.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_variables.scss",
-		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_type.scss",
 		"/Users/ct/Documents/gits/Sketch-Resources/index.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_styles.scss",
-		"/Users/ct/Documents/www/sites/pvccoffee/join/index.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_normalize.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/join/index.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/contact/index.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/contact/index.php",
 		"/Users/ct/Documents/www/sites/pvccoffee/_data/status.yml",
-		"/Users/ct/Documents/www/sites/pvccoffee/_data/members.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/_development_config.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_navigation_main.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/post-list.html",
@@ -449,7 +437,6 @@
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/_config.yml",
 		"/Users/ct/Documents/www/sites/portfolio/_includes/_navigation_main.html",
 		"/Users/ct/Documents/www/sites/portfolio/_data/nav_links.yml",
-		"/Users/ct/Documents/www/sites/portfolio/_config.yml",
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/_includes/_head.html",
 		"/Users/ct/Documents/www/sites/portfolio/_sass/_home-page.scss",
 		"/Users/ct/Documents/www/sites/portfolio/_sass/_styles.scss",
@@ -484,10 +471,7 @@
 		"/Users/ct/Documents/www/sites/portfolio/_sass/_about-me.scss",
 		"/Users/ct/Documents/www/sites/portfolio/_includes/_head.html",
 		"/Users/ct/Library/Application Support/Sublime Text 2/Packages/User/Jekyll.sublime-settings",
-		"/Users/ct/Documents/www/sites/portfolio/_includes/_fluidbox.html",
-		"/Users/ct/Documents/www/sites/portfolio/_includes/_fluidgallery.html",
-		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-03-25-goodrich-coffee.md",
-		"/Users/ct/Documents/www/sites/portfolio/_posts/2014-04-11-tosin-af.md"
+		"/Users/ct/Documents/www/sites/portfolio/_includes/_fluidbox.html"
 	],
 	"find":
 	{
@@ -498,6 +482,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"",
 			"/Users/ct/Documents/www/sites/portfolio",
 			""
 		]
@@ -507,6 +492,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"table",
 			"a",
 			"article",
 			"section",
@@ -633,8 +619,7 @@
 			"loist",
 			"page-wrap",
 			"p",
-			"base-link",
-			"li"
+			"base-link"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -652,7 +637,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -714,15 +699,15 @@
 					"file": "_sass/_styles.scss",
 					"settings":
 					{
-						"buffer_size": 6000,
+						"buffer_size": 6084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1798,
-								1798
+								3228,
+								3228
 							]
 						],
 						"settings":
@@ -730,68 +715,13 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2093.0,
+						"translation.y": 3705.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_sass/_type.scss",
-					"settings":
-					{
-						"buffer_size": 3244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1888,
-								1888
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_layouts/home.html",
-					"settings":
-					{
-						"buffer_size": 2023,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1153,
-								1153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "_data/roasters.yml",
 					"settings":
 					{
@@ -817,24 +747,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_sass/i.scss",
+					"buffer": 4,
+					"file": "_sass/_modules.scss",
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255,
-								255
+								305,
+								305
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
