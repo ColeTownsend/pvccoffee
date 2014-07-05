@@ -1,1 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'><url><loc>/become-a-member</loc><lastmod>2014-05-26T17:53:11-04:00</lastmod></url><url><loc>/404.html</loc><lastmod>2014-05-22T16:05:19-04:00</lastmod></url><url><loc>/</loc><lastmod>2014-05-29T09:38:47-04:00</lastmod></url><url><loc>/join/</loc><lastmod>2014-06-05T15:25:20-04:00</lastmod></url><url><loc>/about/</loc><lastmod>2014-05-22T16:05:23-04:00</lastmod></url><url><loc>/thanks/</loc><lastmod>2014-06-05T15:26:42-04:00</lastmod></url><url><loc>/thoughts/</loc><lastmod>2014-05-26T17:53:43-04:00</lastmod></url></urlset>
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>/become-a-member</loc>
+        <lastmod>2014-05-26T17:53:11-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/404.html</loc>
+        <lastmod>2014-05-22T16:05:19-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/</loc>
+        <lastmod>2014-05-29T09:38:47-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/join/</loc>
+        <lastmod>2014-06-05T15:25:20-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/about/</loc>
+        <lastmod>2014-05-22T16:05:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/thanks/</loc>
+        <lastmod>2014-06-05T15:26:42-04:00</lastmod>
+    </url>
+    <url>
+        <loc>/thoughts/</loc>
+        <lastmod>2014-05-26T17:53:43-04:00</lastmod>
+    </url>
+</urlset>
