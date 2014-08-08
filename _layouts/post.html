@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body {% if page.class %} class="{{ page.class }}" {% endif %}>
+    {% include _navigation_main.html %}
+   <section class="wrap">
+      <article data-no-instant>
+        <header>
+          <h1>{{ page.title }}</h1>
+        </header>
+        {{ content }}
+        <br>
+        <a href="{{ site.url }}/thoughts">Back</a>
+      </article>
+    </section>
+    {% include _footer.html %}
+  </body>
+</html>
