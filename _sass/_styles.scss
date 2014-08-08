@@ -65,7 +65,7 @@ header[role="main-header"] {
 		font-weight: bold;
 		font-family: $mono;
 		letter-spacing: 2px;
-		@include link-hover($white, 10, glow);
+		@include link-hover($white, $base-body-color, 10, shadow);
 	}
 }
 
@@ -204,7 +204,7 @@ h1.landing-header {
 				margin-bottom: 0;
 			}
 			a {
-				@include link-hover($white, 10, shadow);
+				@include link-hover($white, $base-body-color, 10, shadow);
 				opacity: 1;
 			}
 		}
@@ -218,14 +218,17 @@ h1.landing-header {
 	header[role="main-header"] {
 		border-bottom: 2px solid $light-black;
 		nav a {
-			@include link-hover($light-black, 10, glow);
+			@include link-hover($light-black, white, 10, shadow);
 		} 
 	}
 	footer {
 		color: $light-black;
 		a {
-			@include link-hover($light-black, 10, darken)
+			@include link-hover($light-black, white, 10, underline)
 		}
+	}
+	hr {
+		background: $light-black;
 	}
 	article {
 		@include span-columns(7);
@@ -233,6 +236,9 @@ h1.landing-header {
 	}
 	p {
 		font-family: $mono;
+	}
+	a {
+		@include link-hover($light-black, white, 10, underline)
 	}
 }
 

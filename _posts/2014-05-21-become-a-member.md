@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: default
 
 title: Become a Member
 date: 2014-05-26 

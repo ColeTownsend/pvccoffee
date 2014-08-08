@@ -40,7 +40,7 @@
       <article>
         <h3>Roasters</h3>
         <ul class="bullet col-2">
-          {% for each roaster in site.data.roasters %}
+          {% for roaster in site.data.roasters %}
             {% if roaster.url ==  %}
               <li>{{ roaster.name }}</li>
             {% else %}

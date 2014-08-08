@@ -5,9 +5,9 @@
       {% for nav_link in site.data.nav_links %}
         <li><a href="{% if nav_link.external %}{{ nav_link.url }}{% else %}{{ nav_link.url }}{% endif %}" {% if nav_link.external %} data-no-instant target="_blank"{% endif %}>{{ nav_link.title }}</a></li>
       {% endfor %}
-      {% elsif page.layout == "default" %}
+      {% elsif page.layout == "post" %}
         <li><a href="/">Home</a></li>
-        <li><a href="/thoughts">Thoughts</a></li>
+        <li><a href="{{ site.url }}/thoughts">Thoughts</a></li>
       {% else %}
         <li><a href="/">Home</a></li>
       {% endif %}

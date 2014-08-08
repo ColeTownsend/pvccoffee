@@ -66,14 +66,6 @@ h6, .h6, %h6 {
 
 p {
 	// margin: 0 0 ($base-line-height * .5);
-	-ms-word-break: break-all;
-	word-break: break-all;
-
-	/* Non standard for webkit */
-	word-break: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
 }
 
 a[data="disabled"] {
@@ -85,7 +77,7 @@ p + p {
   margin-top: $base-line-height;
 }
 a {
-  @include link-hover($base-link-color, 10, underline);
+  @include link-hover($base-link-color, $base-body-color, 10, underline);
 }
 
 p {
