@@ -224,7 +224,7 @@ h1.landing-header {
 	footer {
 		color: $light-black;
 		a {
-			@include link-hover($light-black, white, 10, underline)
+			@include link-hover($light-black, white, 10, underline);
 		}
 	}
 	hr {
@@ -238,7 +238,7 @@ h1.landing-header {
 		font-family: $mono;
 	}
 	a {
-		@include link-hover($light-black, white, 10, underline)
+		@include link-hover($light-black, white, 10, underline);
 	}
 }
 
