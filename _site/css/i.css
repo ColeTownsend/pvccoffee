@@ -676,30 +676,76 @@ h1.landing-header {
     user-select: none;
     text-align: center; }
 
-.listing ul {
-  margin: 3rem auto; }
-  .listing ul li {
-    margin-bottom: 1.5em; }
-    .listing ul li:last-of-type {
-      margin-bottom: 0; }
-    .listing ul li a {
-      color: white;
+.listing {
+  color: #040708;
+  background: white; }
+  .listing header[role="main-header"] {
+    border-bottom: 2px solid #040708; }
+    .listing header[role="main-header"] nav a {
+      color: #040708;
       -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -webkit-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-      opacity: 1; }
-      .listing ul li a:hover {
-        color: #e6e6e6;
+      transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+      .listing header[role="main-header"] nav a:hover {
+        color: black;
         -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -webkit-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -moz-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        text-shadow: 0 0 1px rgba(230, 230, 230, 0.1); }
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
+  .listing footer {
+    color: #040708; }
+    .listing footer a {
+      color: #040708;
+      -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      background: -webkit-linear-gradient(#040708, #040708), -webkit-linear-gradient(#040708, #040708), -webkit-linear-gradient(#040708, #040708);
+      background-size: 0.04em 1px, 0.04em 1px, 1px 1px;
+      background-repeat: no-repeat, no-repeat, repeat-x;
+      text-shadow: 0.04em 0 white, -0.04em 0 white, 0 0.04em white, 0 -0.06em white, 0.08em 0 white, -0.08em 0 white, 0.08em 0 white, -0.1em 0 white, 0.12em 0 white, -0.12em 0 white, 0.14em 0 white, -0.14em 0 white;
+      background-position-y: 96%, 96%, 96%;
+      background-position-x: 0%, 100%, 0%; }
+      .listing footer a:hover {
+        color: black;
+        -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -webkit-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .listing ul {
+    margin: 3rem auto; }
+    .listing ul li {
+      margin-bottom: 1.5em; }
+      .listing ul li:last-of-type {
+        margin-bottom: 0; }
+      .listing ul li a {
+        color: #040708;
+        -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -webkit-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -moz-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        text-shadow: none;
+        opacity: 1; }
+        .listing ul li a:hover {
+          color: black;
+          -webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          -moz-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          -webkit-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          -moz-transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: text-shadow 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
+        .listing ul li a:hover {
+          color: #35228a; }
 
 .post {
   color: #040708;

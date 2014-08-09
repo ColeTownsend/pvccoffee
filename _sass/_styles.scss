@@ -196,6 +196,21 @@ h1.landing-header {
 }
 
 .listing {
+	color: $light-black;
+	background: $white;
+	// kids
+	header[role="main-header"] {
+		border-bottom: 2px solid $light-black;
+		nav a {
+			@include link-hover($light-black, white, 10, shadow);
+		} 
+	}
+	footer {
+		color: $light-black;
+		a {
+			@include link-hover($light-black, white, 10, underline);
+		}
+	}
 	ul {	
 		margin: 3rem auto;
 		li {
@@ -204,8 +219,12 @@ h1.landing-header {
 				margin-bottom: 0;
 			}
 			a {
-				@include link-hover($white, $base-body-color, 10, shadow);
+				@include link-hover($light-black, white, 10, shadow);
+				text-shadow: none;
 				opacity: 1;
+				&:hover {
+					color: $purple;
+				}
 			}
 		}
 	}
