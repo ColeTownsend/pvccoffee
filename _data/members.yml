@@ -66,3 +66,12 @@
 
 - name: Brian Levine
   unix: bjl2@williams.edu
+
+- name: Jake Verter
+  unix: jgv1@williams.edu
+
+- name: Sam Avila
+  unix: sa12@williams.edu
+
+- name: Eirann Cohen
+  unix: ehc1@williams.edu
