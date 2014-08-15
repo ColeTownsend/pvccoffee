@@ -75,3 +75,9 @@
 
 - name: Eirann Cohen
   unix: ehc1@williams.edu
+
+- name: Matt McNaughton
+  unix: mjm7@williams.edu
+
+- name: Garrett Welson
+  unix: ggw2@williams.edu
