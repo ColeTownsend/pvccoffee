@@ -20,7 +20,7 @@ desc "minifies static files"
 task :minify do
   puts "## Compressing static assets"
   original = 0.0
-  compressed = 0 
+  compressed = 0
   Dir.glob("#{public_dir}/**/*.*") do |file|
     case File.extname(file)
       when ".css", ".gif", ".html", ".jpg", ".jpeg", ".png", ".xml"
@@ -99,5 +99,4 @@ task :ship do
   system "git commit -am '#{message}'"
   system "git push"
   puts "Pushed latest changes to GitHub!"
-  system "glynn"
 end

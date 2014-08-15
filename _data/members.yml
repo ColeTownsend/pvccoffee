@@ -63,3 +63,6 @@
 
 - name: Long Dang
   unix: lpd1@williams.edu
+
+- name: Brian Levine
+  unix: bjl2@williams.edu
