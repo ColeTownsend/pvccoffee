@@ -81,3 +81,17 @@
 
 - name: Garrett Welson
   unix: ggw2@williams.edu
+
+- name: Marieme Sall
+  unix: ms15@williams.edu
+
+- name: Chase Epstein
+  unix: cle2@williams.edu
+
+- name: Michael Druker
+  unix: md8@williams.edu
+
+- name: Rani Mukherjee
+  unix: mrm7@williams.edu
+
+
