@@ -1,11 +1,57 @@
 - name: Cole Townsend
+  unix: cnt2@williams.edu
+
 - name: Colin Cotton
+  unix:
+
 - name: Kayla Servin
+  unix: kfs1@williams.edu
+
 - name: Ben Schneider
+  unix:
+
 - name: Dan Whittam
+  unix:
+
 - name: Adrien Downey
+  unix:
+
 - name: Sam Hine
+  unix:
+
 - name: Robert Yang
+  unix:
+
 - name: Amir Hay
+  unix:
+
 - name: Laura Ureste
+  unix:
+
+- name: Matt Rock
+  unix: mcr5@williams.edu
+
+- name: Maggie Mitts
+  unix: mfm1@williams.edu
+
+- name: Sam Green
+  unix: sig2@williams.edu
+
+- name: Aidyn Osgood
+  unix: pmo1@williams.edu
+
+- name: Shannon Zikovich
+  unix: smz1@williams.edu
+
+- name: Andree Heller
+  unix: ach4@williams.edu
+
+- name: Kimberly Golding
+  unix: kag1@williams.edu
+
+- name: Gwen Schultz
+  unix: ges1@williams.edu
+
+- name: Hannah Brown
+  unix: hjb2@williams.edu
 
