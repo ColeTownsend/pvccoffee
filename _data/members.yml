@@ -94,4 +94,17 @@
 - name: Rani Mukherjee
   unix: mrm7@williams.edu
 
+- name: Benno Stein
+  unix: bjs2@williams.edu
 
+- name: Corbin Chu
+  unix: ccc4@williams.edu
+
+- name: Aramis Sanchez
+  unix: as18@williams.edu
+
+- name: Gerardo Garcia
+  unix: gpg1@williams.edu
+
+- name: Maria
+  unix: mgg1@williams.edu

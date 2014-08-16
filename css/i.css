@@ -652,11 +652,22 @@ h1.landing-header {
   border-collapse: collapse; }
   .block-3 table:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .block-3 table {
+      float: left;
+      display: block;
+      margin-right: 2.22222%;
+      width: 100%; }
+      .block-3 table:last-child {
+        margin-right: 0; } }
   .block-3 table tr {
     width: 100%; }
   .block-3 table .col1, .block-3 table .col2, .block-3 table .col3, .block-3 table .col4 {
     width: 25vw;
     position: relative; }
+    @media screen and (max-width: 480px) {
+      .block-3 table .col1, .block-3 table .col2, .block-3 table .col3, .block-3 table .col4 {
+        width: 50vw; } }
   .block-3 table td {
     font-size: 16px;
     font-weight: bold;

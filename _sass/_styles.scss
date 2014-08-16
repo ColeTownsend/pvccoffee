@@ -71,7 +71,7 @@ header[role="main-header"] {
 
 section {
 	position: relative;
-	overflow: hidden;  
+	overflow: hidden;
   &:not(.block-1) {
   	@extend %container;
 	}
@@ -167,12 +167,18 @@ h1.landing-header {
 		@include span-columns(8);
 		display: block;
 		border-collapse: collapse;
+    @include media($small) {
+      @include span-columns(6);
+    }
 		tr {
 			width: 100%;
 		}
 		.col1, .col2, .col3, .col4 {
 			width: 25vw;
-			position:relative
+			position:relative;
+      @include media($small) {
+        width: 50vw;
+      }
 		}
 		td {
 			font-size: $fs7;
@@ -203,7 +209,7 @@ h1.landing-header {
 		border-bottom: 2px solid $light-black;
 		nav a {
 			@include link-hover($light-black, white, 10, shadow);
-		} 
+		}
 	}
 	footer {
 		color: $light-black;
@@ -211,7 +217,7 @@ h1.landing-header {
 			@include link-hover($light-black, white, 10, underline);
 		}
 	}
-	ul {	
+	ul {
 		margin: 3rem auto;
 		li {
 			margin-bottom: $base-line-height;
@@ -238,7 +244,7 @@ h1.landing-header {
 		border-bottom: 2px solid $light-black;
 		nav a {
 			@include link-hover($light-black, white, 10, shadow);
-		} 
+		}
 	}
 	footer {
 		color: $light-black;
