@@ -177,7 +177,7 @@ h1.landing-header {
 			width: 25vw;
 			position:relative;
       @include media($small) {
-        width: 50vw;
+        width: 50%;
       }
 		}
 		td {
@@ -190,13 +190,24 @@ h1.landing-header {
 			width: 25%;
 			border: 2px solid $base-border-color;
 			margin: 0 0;
-			height: 3rem;
+			padding: 0 0;
+      height: 3rem;
 			//
-			padding: 0 2rem !important;
+			padding: 0 2rem;
 			padding-left: 2rem;
 			padding-right: 2rem;
 			@include user-select();
 			text-align: center;
+      @include media($small) {
+        width: 50%;
+        display: inline-table;
+        vertical-align: middle;
+        padding-top: $base-line-height;
+        padding-bottom: $base-line-height;
+        margin-right: -2px;
+        margin-top: -4px;
+        height: 0;
+      }
 		}
 	}
 }

@@ -108,3 +108,21 @@
 
 - name: Maria
   unix: mgg1@williams.edu
+
+- name: Laura Lee
+  unix: lel2@williams.edu
+
+- name: Ian Outhwaite
+  unix: iro1@williams.edu
+
+- name: Jorge Castro
+  unix: jac6@williams.edu
+
+- name: Anna Spiers
+  unix: ais4@williams.edu
+
+- name: Lindsey Moran
+  unix: ljm2@williams.edu
+
+- name: Grace Sullivan
+  unix: gls3@williams.edu
