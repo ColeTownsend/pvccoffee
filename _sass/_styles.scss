@@ -128,7 +128,7 @@ h1.landing-header {
 		width: 32.5%;
 		height: $block-1-height;
 		// background-image: url('/images/bg-full.jpg');
-		@include retina-image(/images/bg-full, cover, jpg, _2x);
+		@include retina-image(/images/bg-full, cover, jpg, /images/bg-full_2x);
 		@extend .img-fill;
 		border-right: 4px solid $white;
 	}

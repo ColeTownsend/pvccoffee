@@ -8,5 +8,6 @@ class: post
 We have a brand new logo thanks to the awesome work of [Adrian Zorzano](http://adrianzorzano.com/)!
 
 We'll be getting t-shirts and hopefully a custom stamp so you can take stuff home from each meeting. Tees will run between $15-$20.
-<img src="{{ site.url }}/images/pvcc-logo-black.png" alt="">
+<br>
+<br>
 <img src="{{ site.url }}/images/pvcc-cups.jpg" alt="">

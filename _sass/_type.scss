@@ -125,7 +125,7 @@ ul {
 	ul.column-#{$i} {
 		li {
 			@include span-columns(8/$i);
-			@include omega(($i)n)
+			@include omega(($i)n);
 		}
 	}
 }
@@ -203,4 +203,4 @@ cite {
 
 // wrapping
 %nw    { white-space:nowrap; }
-  
+

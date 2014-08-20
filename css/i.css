@@ -619,7 +619,7 @@ h1.landing-header {
     border-right: 4px solid white; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       .block-1 .left {
-        background-image: url("_2x.jpg");
+        background-image: url("/images/bg-full_2x.jpg");
         background-size: cover; } }
   .block-1 .right {
     float: left;
@@ -966,3 +966,5 @@ footer {
   footer small {
     color: white;
     opacity: .6; }
+
+/*# sourceMappingURL=i.css.map */
