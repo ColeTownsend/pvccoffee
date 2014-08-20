@@ -3,7 +3,7 @@ description: "Sweet tees and delicious coffee."
 author: "Cole Townsend"
 email: cole@twnsnd.co
 twitter: twnsndco
-version: 18
+version: 19
 
 future: true
 
@@ -27,7 +27,7 @@ rdiscount:
     - smart
     - generate_toc
 
-permalink: /:categories/:title
+permalink: /thoughts/:title
 
 paginate: 4
 
