@@ -79,7 +79,6 @@ task :build do
   system "rake bump"
   system "rake clean"
   system "jekyll build"
-  system "rake minify"
   system "add"
   system "git commit -am '#{message}'"
   system "git push"
