@@ -126,3 +126,24 @@
 
 - name: Grace Sullivan
   unix: gls3@williams.edu
+
+- name: Nora Lee
+  unix: njl3@williams.edu
+
+- name: Matias Crespo
+  unix: mjc2@williams.edu
+
+- name: Oona Watkins
+  unix: ogw2@williams.edu
+
+- name: Mariah Widman
+  unix: mw7@williams.edu
+
+- name: Matt Davies
+  unix: mrd4@williams.edu
+
+- name: Hannah Van Wetter
+  unix: hlv1@williams.edu
+
+- name: Isabelle Castro
+  unix: ihc1@williams.edu
