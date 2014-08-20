@@ -87,13 +87,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/2014-08-08-Fresh-Ground-Logo.md",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2014-08-20-Tees.md",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/csv.html",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_data/members.yml",
+			"settings":
+			{
+				"buffer_size": 2439,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/jekyll.sublime-build",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"jek",
+				"Set Syntax: HTML (Jekyll)"
+			],
 			[
 				"prvi",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
@@ -101,10 +153,6 @@
 			[
 				"jeky",
 				"Set Syntax: Markdown (Jekyll)"
-			],
-			[
-				"jek",
-				"Set Syntax: HTML (Jekyll)"
 			],
 			[
 				"inst",
@@ -291,7 +339,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 655.0
+		"width": 583.0
 	},
 	"console":
 	{
@@ -308,22 +356,35 @@
 	},
 	"file_history":
 	[
+		"/Users/ct/Documents/www/sites/chx-static/single.php",
+		"/Users/ct/Documents/www/sites/pvccoffee/members/index.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_data/members.yml",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/csv.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/members/member-list.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/documents/member-list.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/home.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/default.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_type.scss",
+		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-15-registered.md",
+		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-05-21-become-a-member.md",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/post-list.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-20-Tees",
+		"/Users/ct/Documents/www/sites/pvccoffee/thoughts/index.md",
+		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_styles.scss",
+		"/Users/ct/Documents/www/sites/pvccoffee/_sass/neat/grid/_omega.scss",
+		"/Users/ct/Documents/www/sites/pvccoffee/Procfile",
+		"/Users/ct/Documents/www/sites/pvccoffee/index.html",
+		"/Users/ct/Documents/www/sites/pvccoffee/_config.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/about/index.md",
 		"/Users/ct/Documents/www/sites/portfolio/Rakefile",
 		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-08-Fresh-Ground-Logo.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/Rakefile",
-		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-15-registered.md",
-		"/Users/ct/Documents/www/sites/pvccoffee/_data/members.yml",
-		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_styles.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_head.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_variables.scss",
-		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/home.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_mixins.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_grid-settings.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-15-Registered.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/join/index.html",
-		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/post-list.html",
-		"/Users/ct/Documents/www/sites/pvccoffee/_config.yml",
 		"/Users/ct/Documents/www/sites/dot.supply/_sass/_styles.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_js_includes.html",
 		"/Users/ct/Library/Caches/Cleanup At Startup/Transmit/96790596-A369-451E-981B-6639AB4C4BD2/header.php",
@@ -333,8 +394,6 @@
 		"/Users/ct/Library/Caches/Cleanup At Startup/Transmit/2D3F789D-6481-4A6B-9EB4-ECBE277AFEAC/index.php",
 		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/post.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_navigation_main.html",
-		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_type.scss",
-		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-05-21-become-a-member.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/_data/nav_links.yml",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_modules.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_data/roasters.yml",
@@ -351,10 +410,8 @@
 		"/Users/ct/Documents/www/sites/pvccoffee/.gitignore",
 		"/Users/ct/Documents/www/sites/pvccoffee/pvcc.sublime-project",
 		"/Users/ct/Documents/www/sites/pvccoffee/humans.txt",
-		"/Users/ct/Documents/www/sites/pvccoffee/thoughts/index.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/gulpfile.js",
 		"/Users/ct/Documents/www/sites/pvccoffee/404.html",
-		"/Users/ct/Documents/www/sites/pvccoffee/index.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/thoughts/index.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/visual-literacy/index.html",
 		"/Users/ct/Documents/www/sites/package.json",
@@ -426,16 +483,7 @@
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/_development_config.yml",
 		"/Users/ct/Documents/www/sites/portfolio/_sass/_grid-settings.scss",
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_styles.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/_data/members.yml",
-		"/Users/ct/Documents/www/sites/portfolio/_layouts/about.html",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_extends.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_modules.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_mixins.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/i.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_grid-settings.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_variables.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_type.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/index.html"
+		"/Users/ct/Documents/www/sites/pvcc/wwwroot/_data/members.yml"
 	],
 	"find":
 	{
@@ -456,6 +504,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nth",
 			"grace",
 			"get",
 			"eirann",
@@ -582,8 +631,7 @@
 			"ihpone",
 			"description",
 			"block",
-			"base-ling",
-			"article"
+			"base-ling"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -601,8 +649,171 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/2014-08-08-Fresh-Ground-Logo.md",
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2014-08-20-Tees.md",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_layouts/csv.html",
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_data/members.yml",
+					"settings":
+					{
+						"buffer_size": 2439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

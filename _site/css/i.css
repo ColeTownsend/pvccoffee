@@ -344,6 +344,9 @@ hr {
   background: white;
   margin: 0 auto; }
 
+strong {
+  font-weight: bold; }
+
 img {
   margin: 0;
   max-width: 100%; }

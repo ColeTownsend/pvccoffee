@@ -2,31 +2,31 @@
   unix: cnt2@williams.edu
 
 - name: Colin Cotton
-  unix:
+  unix: CDC4@williams.edu
 
 - name: Kayla Servin
   unix: kfs1@williams.edu
 
 - name: Ben Schneider
-  unix:
+  unix: bs7@williams.edu
 
 - name: Dan Whittam
-  unix:
+  unix: DJW4@williams.edu
 
 - name: Adrien Downey
-  unix:
+  unix: APD1@williams.edu
 
 - name: Sam Hine
-  unix:
+  unix: SNH2@williams.edu
 
 - name: Robert Yang
-  unix:
+  unix: RWY1@williams.edu
 
 - name: Amir Hay
-  unix:
+  unix: ADH1@williams.edu
 
 - name: Laura Ureste
-  unix:
+  unix: LAU1@williams.edu
 
 - name: Matt Rock
   unix: mcr5@williams.edu

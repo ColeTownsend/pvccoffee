@@ -1,22 +1,22 @@
-<html lang="en"> 
+<html lang="en">
   {% include _head.html %}
   <body {% if page.class %} class="{{ page.class }}" {% endif %}>
   {% include _navigation_main.html %}
   <section class="wrap">
     <ul>
       {% for post in site.posts %}
-        {% if layout == 'post' %}
+        {% if post.layout == "post" %}
           <li>
             <a href="{{ site.url }}{{ post.url }}">
               <h2>{{ post.title }}</h2>
               <small>{{ post.date | date: "%-d %B %Y" }}</small>
             </a>
           </li>
-        {% elsif class == 'link' %}
+        {% elsif post.class == "link" %}
            <li>
             <a {{ if post.external == "true" }}target="_blank"{{ endif }} href="{{ post.link }}">
               <h2>{{ post.title }}</h2>
-              <small>{{post.content}}</small>
+              <small>{{ post.content | markdownify }}</small>
             </a>
           </li>
         {% else %}
