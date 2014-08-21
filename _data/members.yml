@@ -150,3 +150,15 @@
 
 - name: Jamie Lesser
   unix: jrl4@williams.edu
+
+- name: Erika Diaz
+  unix: ecd2@williams.edu
+
+- name: Nigel Bates
+  unix: rnb1@williams.edu
+
+- name: Greg Ferdland
+  unix: gmf1@williams.edu
+
+- name: Kelsey Leonard
+  unix: KRL2@williams.edu
