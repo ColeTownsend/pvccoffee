@@ -1,0 +1,4 @@
+{% for member in site.data.members  %}
+  {% assign name = member.name | split: ' ' %}
+  {{ name[0] }}, {{ name[1] }}, {{ member.unix }}
+{% endfor %}

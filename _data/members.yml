@@ -165,3 +165,13 @@
 
 - name: Katherine Arellano
   unix: kla2@williams.edu
+
+- name: Alison Smith
+  unix: AGS4@williams.edu
+
+- name: Clyde Engle
+  unix: cwe1@williams.edu
+
+- name: Jack Bissell
+  unix: jcb6@williams.edu
+
