@@ -1,4 +1,3 @@
-require "rubygems"
 require 'rake'
 
 desc "Remove _site from directory before committing"

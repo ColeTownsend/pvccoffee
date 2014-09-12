@@ -91,7 +91,7 @@
 			"file": "_data/members.yml",
 			"settings":
 			{
-				"buffer_size": 2732,
+				"buffer_size": 2829,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,14 +100,6 @@
 			"settings":
 			{
 				"buffer_size": 399,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/home.html",
-			"settings":
-			{
-				"buffer_size": 2018,
 				"line_ending": "Unix"
 			}
 		}
@@ -332,6 +324,8 @@
 	},
 	"file_history":
 	[
+		"/Users/ct/Documents/gits/21days/from-the-grounds-up.sublime-project",
+		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/home.html",
 		"/Users/ct/Documents/www/sites/chx-static/chx-static.sublime-project",
 		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/members.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/members/index.md",
@@ -345,7 +339,6 @@
 		"/Users/ct/Documents/www/sites/pvccoffee/_posts/2014-08-15-registered.md",
 		"/Users/ct/Documents/www/sites/pvccoffee/_includes/_head.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_variables.scss",
-		"/Users/ct/Documents/www/sites/pvccoffee/_layouts/home.html",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_mixins.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/_sass/_grid-settings.scss",
 		"/Users/ct/Documents/www/sites/pvccoffee/Rakefile",
@@ -458,8 +451,7 @@
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_modules.scss",
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_mixins.scss",
 		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/i.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_grid-settings.scss",
-		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_variables.scss"
+		"/Users/ct/Documents/www/sites/pvcc/wwwroot/scss/_grid-settings.scss"
 	],
 	"find":
 	{
@@ -625,7 +617,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -633,15 +625,15 @@
 					"file": "_data/members.yml",
 					"settings":
 					{
-						"buffer_size": 2732,
+						"buffer_size": 2829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2732,
-								2732
+								2801,
+								2801
 							]
 						],
 						"settings":
@@ -680,34 +672,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_layouts/home.html",
-					"settings":
-					{
-						"buffer_size": 2018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1497,
-								1497
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 556.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

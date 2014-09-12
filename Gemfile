@@ -4,18 +4,3 @@ gem 'jekyll'
 
 gem 'rake'
 gem 'rdiscount'
-
-gem 'jekyll-assets'
-
-# sass gems
-gem 'sass'
-gem 'bourbon'
-gem 'neat'
-
-# javascript
-gem 'uglifier'
-
-gem 'reduce'
-gem 'json'
-gem 'nokogiri'
-gem 'fileutils'
