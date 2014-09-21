@@ -10,8 +10,6 @@ task :default do
   abort "use foreman start to run the project"
 end
 
-require "reduce"
-
 source_dir  = "source"    # source file directory
 public_dir  = "_site"    # compiled site directory
 
