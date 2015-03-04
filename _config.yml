@@ -27,7 +27,7 @@ rdiscount:
     - smart
     - generate_toc
 
-permalink: /:title
+permalink: pretty
 
 paginate: 4
 
